@@ -5,7 +5,10 @@ Non official plug-in showing [Gravatar](https://www.gravatar.com/), Google and G
 
 This is partially based on Pau Rodriguez's [gravatar plugin](https://github.com/prodrigestivill/roundcube-gravatar).
 
-It has been implemented as a Roundcube readonly hidden addressbook. You have to ensure this plugin is added into the latest entry in the main config (`$config['plugins']`). If so and any address book (LDAP, Google, etc...) already has an image for a contact it will first use that image and lastly if none is reported it will use Dev Identify.
+It has been implemented as a Roundcube readonly hidden addressbook. You have to ensure this plugin is added into the latest entry in the main config (`$config['plugins']`). 
+
+- If any address book (LDAP, Google, etc...) already has an image for a contact, it will use that image first. 
+- If none is found, then it will use Dev Identify.
 
 Tested in Roundcube 1.4.0.
 
