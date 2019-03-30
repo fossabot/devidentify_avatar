@@ -1,0 +1,19 @@
+<?php
+// Per-user chooseable settings
+$config['devidentify_gravatar_enabled'] = false;
+$config['devidentify_gravatar_size'] = 128;
+$config['devidentify_gravatar_rating'] = 'g'; // Possible values 'g', 'pg', 'r', 'x'
+$config['devidentify_google_enabled'] = false;
+
+// For google plus fill 'devidentify_google_plus_api_key' 
+// (see README.md for Google Plus Api Key creation instructions)
+// set 'devidentify_google_plus_enabled' to true to enable by default on each user.
+// For security reasons user will not be permited to change this.
+$config['devidentify_google_plus_enabled'] = false;
+//$config['devidentify_google_plus_api_key'] = '';
+
+// For custom api fill 'devidentify_custom_avatar_api' (see README.md for replacements)
+// set 'devidentify_avatar_custom_enabled' to true to enable by default on each user.
+// For security reasons user will not be permited to change this.
+$config['devidentify_avatar_custom_enabled'] = false;
+//$config['devidentify_custom_avatar_api'] = 'http://www.example.com/avatars/%e.jpg?s=%z';
