@@ -61,3 +61,6 @@ $config['gravatar_custom_photo_api'] = 'http://www.example.com/directory/%e.jpg?
 //OR//
 $config['gravatar_custom_photo_api'] = '/path/%m.jpg';
 ```
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fempower-creative-studios%2Fdevidentify_avatar.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fempower-creative-studios%2Fdevidentify_avatar?ref=badge_large)
