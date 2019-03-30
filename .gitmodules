@@ -1,0 +1,3 @@
+[submodule "dev-identify"]
+	path = dev-identify
+	url = https://github.com/SociallyDev/dev-identify.git
